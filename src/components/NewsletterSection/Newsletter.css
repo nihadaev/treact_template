@@ -1,0 +1,103 @@
+.newsletter-section{
+    margin-top: 110px;
+    height: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: rgb(25 43 69);
+}
+.newsletter-section_left{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.newsletter-section_left h2{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 900;
+}
+.newsletter-section_left h3{
+    font-size: 14px;
+    font-weight: 400;
+}
+.newsletter-section_left svg{
+    color: rgb(72 187 120);
+    width: 64px;
+    height: 64px;
+}
+.newsletter-section_right{
+    display: flex;
+    height: 55px;
+}
+.newsletter-section_right input{
+    height: 100%;
+    color: rgb(237 242 247 );
+    font-weight: 900;
+    padding: 16px 24px;
+    font-size: 14px;
+    background-color: rgb(32 56 89);
+    transition: .4s;
+    border-radius: 3% 0 0 3%;
+    border: none;
+    outline: none;
+}
+.newsletter-section_right input::placeholder{
+    color: rgb(237 242 247 );
+}
+.newsletter-section_right input:hover{
+    background-color: rgb(36 62 99);
+}
+.newsletter-section_right button {
+    padding: 16px 32px;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background-color: rgb(72 187 120);
+    cursor: pointer;
+    border-radius: 0 3% 3% 0;
+    transition: .4s;
+}
+.newsletter-section_right button:hover{
+    background-color: rgb(47 133 90);
+}
+
+
+@media screen and (max-width: 768px) {
+    .newsletter-section{
+        margin-top: 70px;
+        height: auto ;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 30px;
+    }
+    .newsletter-section_left{
+        flex-direction: column;
+        gap: 25px;
+    }
+    .newsletter-section_left h2{
+        font-size: 25px;
+        text-align: center;
+    }
+    .newsletter-section_left h3{
+        font-size: 12px;
+    }   
+    .newsletter-section_left svg{
+        width: 44px;
+        height: 44px;
+    }
+    .newsletter-section_right{
+        display: flex;
+        flex-direction: column;
+        height: auto ;
+    }
+    .newsletter-section_right input{
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+    .newsletter-section_right button {
+        font-size: 11px;
+    }
+    
+        
+}

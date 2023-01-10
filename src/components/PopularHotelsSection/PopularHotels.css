@@ -1,0 +1,62 @@
+.popular-hotels_section{
+    width: 92%;
+    margin: 90px auto;
+    position: relative;
+}
+.popular-hotels_section-head{
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.popular-hotels_section .mySwiper{
+    padding-top: 100px;
+    position: relative;
+}
+
+.popular-hotels_section .mySwiper .swiper-button-next{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.popular-hotels_section .mySwiper .swiper-button-prev{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    left: auto !important;
+}
+.mySwiper .swiper-button-next,.swiper-button-prev{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(100 21 255);
+    font-weight: 700;
+    color: rgb(247 250 252);
+    transition: .4s;
+}
+
+.mySwiper .swiper-button-next::after,.swiper-button-prev::after{
+    font-size: 13px;
+}
+
+.mySwiper .swiper-button-next:hover,.swiper-button-prev:hover{
+    background-color: rgb(80 17 204);
+    color: rgb(237 242 247);
+}
+
+@media screen and (max-width: 768px){
+    .popular-hotels_section-head{
+        font-size: 25px;
+    }
+    .popular-hotels_section .mySwiper .swiper-button-prev{
+        right: 40px;
+    }
+    .mySwiper .swiper-button-next,.swiper-button-prev{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .mySwiper .swiper-button-next::after,.swiper-button-prev::after{
+        font-size: 8px;
+    }
+}

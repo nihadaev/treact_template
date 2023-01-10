@@ -1,0 +1,11 @@
+.recent-posts_section h2{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 768px){
+    .recent-posts_section h2{
+        font-size: 30px;
+        margin-bottom: 27px;
+    }
+}

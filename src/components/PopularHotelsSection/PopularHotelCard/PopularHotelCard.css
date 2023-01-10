@@ -1,0 +1,125 @@
+.popular-hotel_card{
+    width: 364px;
+    height: 568px;
+    border-radius: 15px 0 15px 0;
+    border: 1px solid  rgb(226, 232, 240);
+}
+.popular-hotel_card-head{
+    width: 100%;
+    height: 256px;
+}
+.popular-hotel_card-head img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 0 0 0;
+}
+.popular-hotel_card-body{
+    padding: 24px 40px;
+}
+.popular-hotel_card-body h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+}
+.popular-hotel_card-body h2 .hotel-rating{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 18px;
+}
+.popular-hotel_card-body h3{
+    font-size: 15px;
+    display: flex;
+    gap: 25px;
+    margin: 20px 0;
+}
+.popular-hotel_card-body h3 .hotel-svg_back{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(74 85 104);
+    color: rgb(247 250 252);
+}
+.popular-hotel_card-body h3 svg{
+    width: 12px;
+    height: 12px;
+}
+.popular-hotel_card-body h3 span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.popular-hotel_card-body p{
+    font-size: 15px;
+    color: rgb(36 62 99);
+    line-height: 1.5;
+}
+
+.popular-hotel_card-foot{
+    width: 100%;
+}
+.popular-hotel_card-foot a{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(100 21 255);
+    color: rgb(237 242 247);
+    padding: 25px 0;
+    transition: .4s;
+    border-radius: 0 0 15px 0;
+    font-size: 20px;
+    font-weight: 900;
+}
+.popular-hotel_card-foot a:hover{
+    background-color: rgb(80 17 204);
+}
+
+
+@media screen and (max-width: 768px){
+    .popular-hotel_card{
+        width: 300px;
+        height: auto;
+    }
+    .popular-hotel_card-head{
+        width: 100%;
+        height: 180px;
+    }
+    .popular-hotel_card-body{
+        padding: 18px 27px;
+    }
+    .popular-hotel_card-body h2{
+        font-size: 18px;
+    }
+    .popular-hotel_card-body h2 .hotel-rating{
+        font-size: 14px;
+    }
+    .popular-hotel_card-body h3{
+        font-size: 12px;
+        gap: 18px;
+        margin: 15px 0;
+    }
+    .popular-hotel_card-body h3 .hotel-svg_back{
+        width: 20px;
+        height: 20px;
+    }
+    .popular-hotel_card-body h3 svg{
+        width: 10px;
+        height: 10px;
+    }
+    .popular-hotel_card-body h3 span{
+        gap: 7px;
+    }
+    .popular-hotel_card-body p{
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .popular-hotel_card-foot a{
+        padding: 18px 0;
+        font-size: 17px;
+    }
+}

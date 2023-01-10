@@ -1,0 +1,13 @@
+.posts-section{
+    width: 92%;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px){
+    .posts-section{
+        margin: 70ox auto;
+        flex-direction: column;
+    }
+}

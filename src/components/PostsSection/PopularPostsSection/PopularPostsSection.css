@@ -1,0 +1,22 @@
+
+.popular-posts_section h2{
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.popular-posts_section-cards{
+    display: flex;
+    gap: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .popular-posts_section h2{
+        font-size: 30px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .popular-posts_section-cards{
+        flex-direction: column;
+    }
+}

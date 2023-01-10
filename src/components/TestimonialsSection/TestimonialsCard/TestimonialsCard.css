@@ -1,0 +1,33 @@
+.testimonial p{
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+.testimonial-foot{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.testimonial-foot_img{
+    width: 80px;
+    height: 80px;
+}
+.testimonial-foot_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testimonial-foot h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.testimonial-foot h3{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+blockquote{
+    margin-bottom: 30px;
+}
